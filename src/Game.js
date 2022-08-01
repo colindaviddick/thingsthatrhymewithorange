@@ -141,9 +141,9 @@ class Game extends Component {
 
 		let gameData = this.state;
 		return (
-			<div className="game">
-				<div className="headingDiv">
-				<h1 className='heading'>Things that rhyme with 'Orange'</h1>
+			<div className='game'>
+				<div className='headingDiv'>
+					<h1 className='heading'>Things that rhyme with 'Orange'</h1>
 				</div>
 				<table className='gameTable'>
 					<tr className='tableRow'>
@@ -162,28 +162,36 @@ class Game extends Component {
 						</th>
 					</tr>
 					<tr className='tableRow'>
-						<th className='tableHeading'>{this.state.topics[topicArray[0]]}</th>
+						<th className='tableHeading topicCell'>
+							{this.state.topics[topicArray[0]]}
+						</th>
 						<td className='tableHeading'></td>
 						<td className='tableHeading'></td>
 						<td className='tableHeading'></td>
 						<td className='tableHeading'></td>
 					</tr>
 					<tr className='tableRow'>
-						<th className='tableHeading'>{this.state.topics[topicArray[1]]}</th>{" "}
+						<th className='tableHeading topicCell'>
+							{this.state.topics[topicArray[1]]}
+						</th>{" "}
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 					</tr>
 					<tr className='tableRow'>
-						<th className='tableHeading'>{this.state.topics[topicArray[2]]}</th>{" "}
+						<th className='tableHeading topicCell'>
+							{this.state.topics[topicArray[2]]}
+						</th>{" "}
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 					</tr>
 					<tr className='tableRow'>
-						<th className='tableHeading'>{this.state.topics[topicArray[3]]}</th>{" "}
+						<th className='tableHeading topicCell'>
+							{this.state.topics[topicArray[3]]}
+						</th>{" "}
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
 						<th className='tableHeading'></th>
@@ -203,7 +211,9 @@ class Game extends Component {
 						judged by all other players. Majority rules.
 					</p>
 				</div>
-				<h5 className="footer">All content © Colin Dick 2022</h5>
+				<div className='footer'>
+					<h5>All content © Colin Dick 2022</h5>
+				</div>
 			</div>
 		);
 	}

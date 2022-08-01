@@ -7,10 +7,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-body, .game, #root, .game {
-    min-height: 100vh;
-    min-width: 100vw;
-}
 
 .headingDiv {
     display: flex;
@@ -33,18 +29,19 @@ body, .game, #root, .game {
 }
 
 .tableHeading {
-    width: 18%;
     border: 3px solid #44355B;
-    height: 5em;
+    height: 3.5em;
     font-size: 1.5em;
     text-transform: uppercase;
     word-wrap: normal;
 }
+.topicCell {
+    width: 22%;
+}
 
 .textHeading {
-    width: 20%;
+    width: 17%;
     border: 3px solid #44355B;
-    height: 1em;
     font-size: 4em;
     font-weight: 500;
     text-transform: uppercase;
@@ -63,10 +60,9 @@ p {
 
 @media screen and (max-width: 900px) {
     .gameTable {
-        transform: rotateZ(90deg);
-        height: 400px !important;
         font-size: smaller;
-        margin: 0;
+        margin: auto;
+        overflow: scroll;
     }
 
     h1 {
@@ -76,7 +72,18 @@ p {
     p {
         margin-top: 2em;
     }
+    .textHeading {
+        font-size: x-large;
+    }
 }
 .footer {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
     margin-top: auto;
+    padding: 0;
+}
+.footer h5 {
+    margin: auto 0;
+    padding: 0;
 }
