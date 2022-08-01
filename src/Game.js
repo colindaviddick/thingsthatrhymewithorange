@@ -90,6 +90,23 @@ class Game extends Component {
 				"Flowers",
 				"Birds",
 				"Countries",
+				"Things that rhyme with simple",
+				"Things that rhyme with hunt",
+				"Things that rhyme with finch",
+				"Things that rhyme with might",
+				"Things that rhyme with sad",
+				"Things that rhyme with May",
+				"Things that rhyme with rock",
+				"Things that rhyme with Vodka",
+				"Green things",
+				"Orange things",
+				"Pink things",
+				"Wobbly things",
+				"Yellow things",
+				"People with ginger hair",
+				"People with blonde hair",
+				"People with brown hair",
+				"Bald people",
 			],
 		};
 
@@ -176,6 +193,8 @@ class Game extends Component {
 						The aim of the game is to fill in your form with as many answers as
 						possible. Answer each category with a word beginning with the letter
 						at the top of each column. Try to fill in every square.
+
+						Decide on a time limit before you start. 1-2 minutes is a good amount of time.
 					</p>
 					<p>
 						Every unique answer scores a point. Answers which are not unique do
