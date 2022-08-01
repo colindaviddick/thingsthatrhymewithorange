@@ -141,8 +141,10 @@ class Game extends Component {
 
 		let gameData = this.state;
 		return (
-			<div>
+			<div className="game">
+				<div className="headingDiv">
 				<h1 className='heading'>Things that rhyme with 'Orange'</h1>
+				</div>
 				<table className='gameTable'>
 					<tr className='tableRow'>
 						<th className='tableHeading'></th>
@@ -192,9 +194,8 @@ class Game extends Component {
 					<p>
 						The aim of the game is to fill in your form with as many answers as
 						possible. Answer each category with a word beginning with the letter
-						at the top of each column. Try to fill in every square.
-
-						Decide on a time limit before you start. 1-2 minutes is a good amount of time.
+						at the top of each column. Try to fill in every square. Decide on a
+						time limit before you start. 1-2 minutes is a good amount of time.
 					</p>
 					<p>
 						Every unique answer scores a point. Answers which are not unique do
@@ -202,6 +203,7 @@ class Game extends Component {
 						judged by all other players. Majority rules.
 					</p>
 				</div>
+				<h5 className="footer">All content © Colin Dick 2022</h5>
 			</div>
 		);
 	}

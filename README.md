@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Things That Rhyme With Orange
 
 This app generates a game, to be played alone or in a group.
 
