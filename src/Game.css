@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(214, 205, 205);
+}
+.heading {
+    text-align: center;
+}
+.gameTable {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+}
+.tableHeading {
+    width: 20%;
+    border: 3px solid black;
+    height: 5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    word-wrap: normal;
+}
+.textHeading {
+    width: 20%;
+    border: 3px solid black;
+    height: 1em;
+    font-size: 4em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.instructions {
+    margin: 0 auto;
+    width: 50%;
+    word-wrap: normal;
+    text-align: left;
+}
+p {
+    text-align: left;
+}
